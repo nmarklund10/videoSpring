@@ -21,6 +21,9 @@ public class Student {
     private LocalDate dob;
     private Integer age;
 
+    public Student() {
+    }
+
     public Student(String name,
             String email,
             LocalDate dob,
